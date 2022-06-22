@@ -28,7 +28,7 @@ setup(
     url=URL,
     packages=find_packages(exclude=("tests",)),
     package_data={"squarer": ["VERSION"]},
-    install_requires=["numpy==1.16.6"],
+    install_requires=["numpy==1.22.0"],
     extras_require={},
     include_package_data=True,
     license="BSD-3",
